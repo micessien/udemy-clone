@@ -1,7 +1,9 @@
 {
   "name": "udemy-clone",
   "version": "0.1.0",
+  "description": "Udemy clone project using Next.js, Tailwind CSS, and Clerk for authentication.",
   "private": true,
+  "author": "Micael Die",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
