@@ -10,6 +10,7 @@
     "start": "next start",
     "lint": "eslint",
     "prisma:generate": "npx prisma generate",
+    "prisma:push": "npx prisma db push",
     "prisma:migrate": "yarn prisma migrate dev",
     "prisma:studio": "npx prisma studio",
     "prisma:seed": "tsx prisma/seed.ts"
