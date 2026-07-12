@@ -57,8 +57,7 @@ const ChapterTitleForm = ({
       toast.success("Chapter title updated successfully!");
       toggleEdit();
       router.refresh();
-    } catch (error) {
-      console.log("🚀 ~ onSubmit ~ error:", error);
+    } catch {
       toast.error("Something went wrong.");
     }
   };
