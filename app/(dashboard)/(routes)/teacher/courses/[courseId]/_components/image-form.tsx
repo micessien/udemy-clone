@@ -17,6 +17,7 @@ interface ImageFormProps {
   courseId: string;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const formSchema = z.object({
   imageUrl: z.string().min(1, {
     message: "Image is required",
