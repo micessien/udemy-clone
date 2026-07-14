@@ -9,6 +9,7 @@ export async function DELETE(
   try {
     const { userId } = await auth();
     const { courseId, attachmentId } = await params;
+
     if (!userId) {
       return new NextResponse("Unauthorized", { status: 401 });
     }
